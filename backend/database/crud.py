@@ -36,3 +36,15 @@ def get_messages(db, session_id):
     return db.query(Message).filter(
         Message.session_id == session_id
     ).all()
+
+from database.models import ChatSession, Message
+
+def get_sessions(db):
+    return db.query(ChatSession).all()
+
+def get_messages(db, session_id):
+    return (
+        db.query(Message)
+        .filter(Message.session_id == session_id)
+        .all()
+    )
