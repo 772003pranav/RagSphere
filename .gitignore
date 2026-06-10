@@ -1,0 +1,54 @@
+# =========================
+# PYTHON
+# =========================
+
+backend/venv/
+backend/__pycache__/
+backend/*.pyc
+
+# Environment Variables
+backend/.env
+
+# Uploads
+backend/uploads/
+
+# ChromaDB
+backend/chroma_db/
+
+# SQLite
+backend/*.db
+backend/*.sqlite3
+
+# Local Models
+backend/local_models/
+
+
+# =========================
+# NODE / REACT
+# =========================
+
+frontend/node_modules/
+frontend/dist/
+
+
+# =========================
+# LOGS
+# =========================
+
+*.log
+
+
+# =========================
+# IDE
+# =========================
+
+.vscode/
+.idea/
+
+
+# =========================
+# OS FILES
+# =========================
+
+.DS_Store
+Thumbs.db
